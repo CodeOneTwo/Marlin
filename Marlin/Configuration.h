@@ -415,7 +415,7 @@
  *   998 : Dummy Table that ALWAYS reads 25°C or the temperature defined below.
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  */
-#define TEMP_SENSOR_0 13
+#define TEMP_SENSOR_0 11
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
@@ -505,9 +505,10 @@
     // #define DEFAULT_Kd 114.00
 
     // Wanhao Duplicator i3 v2.1
-    #define DEFAULT_Kp 17.45
-    #define DEFAULT_Ki 0.84
-    #define DEFAULT_Kd 90.41
+    #define DEFAULT_Kp 26.2
+    #define DEFAULT_Ki 1.36
+    #define DEFAULT_Kd 126.68
+
   #endif
 #endif // PIDTEMP
 
